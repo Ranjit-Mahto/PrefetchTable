@@ -13,6 +13,9 @@
 		07C457A72BB9481A00EDE16F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07C457A52BB9481A00EDE16F /* Main.storyboard */; };
 		07C457A92BB9481D00EDE16F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07C457A82BB9481D00EDE16F /* Assets.xcassets */; };
 		07C457AC2BB9481D00EDE16F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07C457AA2BB9481D00EDE16F /* LaunchScreen.storyboard */; };
+		07C457B52BB948AD00EDE16F /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C457B32BB948AD00EDE16F /* PhotoCell.swift */; };
+		07C457B62BB948AD00EDE16F /* PhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07C457B42BB948AD00EDE16F /* PhotoCell.xib */; };
+		07C457B82BB979AF00EDE16F /* viewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C457B72BB979AF00EDE16F /* viewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		07C457A82BB9481D00EDE16F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07C457AB2BB9481D00EDE16F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		07C457AD2BB9481D00EDE16F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07C457B32BB948AD00EDE16F /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		07C457B42BB948AD00EDE16F /* PhotoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoCell.xib; sourceTree = "<group>"; };
+		07C457B72BB979AF00EDE16F /* viewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				07C457A82BB9481D00EDE16F /* Assets.xcassets */,
 				07C457AA2BB9481D00EDE16F /* LaunchScreen.storyboard */,
 				07C457AD2BB9481D00EDE16F /* Info.plist */,
+				07C457B32BB948AD00EDE16F /* PhotoCell.swift */,
+				07C457B42BB948AD00EDE16F /* PhotoCell.xib */,
+				07C457B72BB979AF00EDE16F /* viewModel.swift */,
 			);
 			path = Prefetching;
 			sourceTree = "<group>";
@@ -125,6 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07C457B62BB948AD00EDE16F /* PhotoCell.xib in Resources */,
 				07C457AC2BB9481D00EDE16F /* LaunchScreen.storyboard in Resources */,
 				07C457A92BB9481D00EDE16F /* Assets.xcassets in Resources */,
 				07C457A72BB9481A00EDE16F /* Main.storyboard in Resources */,
@@ -138,8 +148,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07C457B52BB948AD00EDE16F /* PhotoCell.swift in Sources */,
 				07C457A42BB9481A00EDE16F /* ViewController.swift in Sources */,
 				07C457A02BB9481A00EDE16F /* AppDelegate.swift in Sources */,
+				07C457B82BB979AF00EDE16F /* viewModel.swift in Sources */,
 				07C457A22BB9481A00EDE16F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
