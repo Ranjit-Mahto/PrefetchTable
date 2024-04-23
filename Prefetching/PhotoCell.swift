@@ -197,3 +197,29 @@ return animation
 }
 
 //call : self.your_ImageView.loadGif(name: “nameOfGif”)
+
+
+//Animate image
+let img1 = UIImage(named: "panda-0")!
+let img2 = UIImage(named: "panda-1")!
+let img3 = UIImage(named: "panda-2")!
+let animatedImage = UIImage.animatedImage(with: [img1, img2, img3], duration: 1.0)
+let imageView: UIImageView = UIImageView(image: animatedImage)
+view.addSubview(imageView)
+
+//method 2
+let animatedImage = UIImage.animatedImageNamed(“panda-”, duration: 1.0)
+let imageView: UIImageView = UIImageView(image: animatedImage)
+view.addSubview(imageView)
+
+
+//or
+imageView.animationImages = [img1, img2, img3]
+imageView.animationDuration = 1
+// must call startAnimating() to trigger animation in this way
+imageView.startAnimating()
+
+//or
+imageView.image = UIImage.animatedImageNamed(“panda-”, duration: 1.0)
+imageView.animationRepeatCount = 0 // default value
+
